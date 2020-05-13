@@ -11,13 +11,13 @@ type User {
 	likes: [Like!]!
 	comments: [Comment!]!
 	rooms: [Room!]!
-	loginSecret: String!
+	loginSecret: String
 }
 
 type Post {
 	id: ID!
 	location: String
-	caprion: String!
+	caption: String!
 	user: User!
 	files: [File!]!
 	likes: [Like!]!
