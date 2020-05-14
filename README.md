@@ -8,10 +8,11 @@ Instagram clone with Express + Prisma + React and React Native
 - [x] Request Secret
 - [x] Confirm Secret (Login)
 - [x] Like / UnLike a photo
-- [] comment on a photo
-- [] Search by user
-- [] See user profile
-- [] Follow / Unfollow User
+- [x] comment on a photo
+- [x] Search by user
+- [x] See user profile
+- [x] Follow User
+- [x] Unfollow User
 - [] See the full photo
 - [] Edit my profile
 - [] Upload a photo
