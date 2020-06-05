@@ -11,6 +11,7 @@ const s3 = new aws.S3({
 const upload = multer({
 	storage: multerS3({
 		s3,
+		acl: "public-read",
 		bucket: "cloninggram",
 		metadata: function(req, file, cb) {
 			cb(null, { fieldName: file.fieldname });
@@ -26,6 +27,5 @@ export const uploadController = (req, res) => {
 	const {
 		file: { location },
 	} = req;
-	console.log(location);
 	res.json({ location });
 };
