@@ -11,7 +11,7 @@
 		"@babel/node": "^7.8.7",
 		"@babel/preset-env": "^7.9.6",
 		"@babel/runtime": "^7.10.2",
-		"aws-sdk": "^2.690.0",
+		"aws-sdk": "^2.814.0",
 		"copy": "^0.3.2",
 		"dotenv": "^8.2.0",
 		"graphql-tools": "^5.0.0",
